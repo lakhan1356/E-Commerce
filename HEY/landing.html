@@ -1,0 +1,251 @@
+<html>
+<head>
+	<title>
+		ShopFreak
+	</title>
+</head>
+<!--Initialising css folders-->
+<link rel="stylesheet" href="css/materialize.css">
+<!--Initialising javascript folders-->
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript"src="js/materialize.min.1.js"></script>
+<!--Initialising icon font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!--Styling header tags-->
+<style>
+h1,h2,h3,h4,h5,h6{
+font-family:Freestyle Script
+}
+</style>
+<!--Initialisations end-->
+<body>
+  <div id="upar" class="scroll" ></div>
+  <nav>
+    <div class="col s12 m12 l12 nav-wrapper black">
+      <a href="landing.html" class="brand-logo"><img src="img/ISTE.png" style="width:60px; height:60px;"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	    <li><div style="width:500px"><img src="img/SFREAK.png" style="height:70px;"></div></li>
+        <li><a href="mens.html">Men</a></li>
+        <li><a href="women.html">Women</a></li>
+        <li><a href="accessories.html">Accessories</a></li>
+		<li><a class="modal-trigger" href="#login">Login</a></li>
+		<li><a class="modal-trigger" href="#signup">SignUp</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--<div><hr><center><h1>ShopFreak</h1></center><hr></div>-->
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/r1.jpg">
+        <div class="caption left-align"></div>
+      </li>
+      <li>
+        <img src="img/r2.jpg">
+        <div class="caption left-align"></div>
+      </li>
+      <li>
+        <img src="img/r3.jpg">
+        <div class="caption right-align"></div>
+      </li>
+      <li>
+        <img src="img/r4.jpg">
+        <div class="caption center-align"></div>
+      </li>
+
+    </ul>
+  </div>
+   <div class="fixed-action-btn tooltipped" data-position="left" data-delay="100" data-tooltip="Back to Top"   style="bottom: 14px;">
+		<a class="btn-floating btn-large black" href="#upar">
+			<i class="large material-icons">navigation</i>
+		</a>
+	</div>
+	<div class="fixed-action-btn" style="bottom: 14px; right:95%;">
+		<a class="btn-floating btn-large black">
+			<i class="large material-icons">star</i>
+		</a>
+		<ul>
+		    <li><a class="btn-floating black tooltipped modal-trigger" data-position="right" data-delay="50" data-tooltip="Developers" href="#developers"><i class="large material-icons">perm_identity</i></a></li>
+			<li><a class="btn-floating black tooltipped modal-trigger" data-position="right" data-delay="50" data-tooltip="Cart" href="#cart"><i class="large material-icons">shopping_cart</i></a></li>
+		</ul>
+	</div>
+	
+  <div class="row">
+	<div class="col s5 m5 l5 offset-s1 offset-m1 offset-l1">
+      <div class="card large">
+        <div class="card-image">
+          <a href="mens.html"><img src="img/1.jpg"></a>
+        </div>
+      </div>
+    </div>
+	<div class="col s5 m5 l5"><!--l is the number of column occupied by the image by laptop and similarly for mobile and tablets s5 and m5-->
+      <div class="card large">
+        <div class="card-image">
+          <a href="women.html"><img src="img/2.jpg"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1">
+      <div class="card large">
+        <div class="card-image">
+          <a href="accessories.html"><img src="img/3.jpg"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="cart" class="modal">
+	<div class="modal-content center blue-grey lighten-4 black-text">
+		<h2>Your Cart </h2>
+	</div>
+	 <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+  </div>
+  </div>
+  
+  <div id="developers" class="modal">
+	<div class="modal-content center blue-grey lighten-4 black-text">
+		<h2>Developers</h2>
+		<div class="col s4 m4 l4 offset-s4">
+		<img src="img/yash.jpg" width="300" height="200" style=" width: 200px;border-radius:0%;height:200px;">
+		<div class="desc" style="padding: 15px; text-align: center;color:black;"><b>Anurag Sharma</b>
+		</div>
+		</div>
+		<div class="row">
+		<div class="col s4 m4 l4 ">
+		<img src="img/anmol.jpg" width="300" height="200" style=" width: 200px;border-radius:50%;height:200px;">
+		<div class="desc" style="padding: 15px;
+			text-align: center;color:black;">Lakhan Ramnani
+		</div>
+		</div>
+<div class="col s4 m4 l4 ">
+		<img src="img/Rakshit.jpg" width="300" height="200" style=" width: 200px;border-radius:50%;height:200px;">
+		<div class="desc" style="padding: 15px;
+			text-align: center;color:black;">Dikshant Jain
+		</div>
+		</div>
+<div class="col s4 m4 l4 ">
+		<img src="img/sakshi.jpg" width="300" height="200" style=" width: 200px;border-radius:50%;height:200px;">
+		<div class="desc" style="padding: 15px;
+			text-align: center;color:black;">Jaspreet Singh
+		</div>
+		</div>
+<div class="col s4 m4 l4 ">
+		<img src="img/aman.jpg" width="300" height="200" style=" width: 200px;border-radius:50%;height:200px;">
+		<div class="desc" style="padding: 15px;
+			text-align: center;color:black;">Anonymous
+		</div>
+		</div>		
+
+	
+	 <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+  </div>
+  </div>
+ <div id="login" class="modal">
+	<div class="modal-content center black-text">
+		<h2>Login</h2>
+		<form autocomplete="off" method="" action="">
+			<div class="row">
+				<div class="input-field col s10 offset-s1">
+					<input type="text" id="id" name="email" class="validate" >
+					<label for="id">Enter ID</label>
+				</div>
+				<div class="input-field col s10 offset-s1">
+					<input type="password" id="pw" name="pwd" class="validate" >
+					<label for="pw">Enter Password</label>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<button class="btn large waves-effect waves-light col s2 offset-s5" type="submit" name="action">Submit
+				<i class="material-icons right">send</i>
+				</button>
+			</div>
+		</form>
+	</div>
+	 <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+  </div>
+</div>
+<div id="signup" class="modal">
+  <div class="modal-content center black-text">
+		<h2>Sign Up</h2>
+		<form class="col s12" autocomplete="off" method="" action="">
+			<div class="row">
+				<div class="input-field col s10 offset-s1">
+					<input type="text" id="name" name="name" class="validate" >
+					<label for="name">Enter Name</label>
+				</div>
+				<div class="input-field col s10 offset-s1">
+					<input type="text" id="email" name="email" class="validate" >
+					<label for="email">Enter Email ID</label>
+				</div>
+				<div class="input-field col s10 offset-s1">
+					<input type="password" id="pw" name="pwd" class="validate" >
+					<label for="pw">Enter Password</label>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<button class="btn large waves-effect waves-light col offset-s5" style="margin-top:3%" type="submit" name="action">Submit
+				<i class="material-icons right">send</i>
+				</button>
+			</div>
+		</form>
+	</div>
+	 <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+  </div>
+</div>
+  
+  <footer class="page-footer grey darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col l2 offset-l1">
+                <h5 class="white-text">Digital Partner</h5>
+				<img src="img/adobe.png" width="50px" height="50px">
+				<img src="img/bahwan.jpg" width="50px" height="50px">
+              </div>
+              <div class="col l2 offset-l6">
+                <h5 class="white-text">Media Partner</h5>
+				<img src="img/beepweep.png" width="100px" height="50px">
+              </div>
+            </div>
+			<div class="footer-copyright">
+            <div class="center" style="margin-left:35%">Indian Society for Technical Education (VITU) &copy; 2016 Copyright</div>
+          </div>
+			</div>			
+          </div>
+    </footer>
+  <script>
+    $(document).ready(function(){
+      $('.slider').slider();
+    });
+  </script>
+  <script>
+	// Pause slider
+	$('.slider').slider('pause');
+	// Start slider
+	$('.slider').slider('start');
+	// Next slide
+	$('.slider').slider('next');
+	// Previous slide
+	$('.slider').slider('prev');
+  </script>
+  <script>
+$(document).ready(function(){
+    $('.modal-trigger').leanModal();
+  });
+</script> 
+  <script>
+	
+  $(document).ready(function(){
+    $('.scroll').scrollSpy();
+  });
+  </script>
+</body>
+</html>
